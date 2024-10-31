@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/output.css" />
+    <title>Fashion House</title>
+  </head>
+  <body class="justify-center md:justify-evenly xl:justify-between flex-wrap">
+    <header class="font-sans text-sm text-slate-500">
+      <div class="container mx-auto px-4 pt-4 border-2">
+        <nav class="nav flex justify-between items-center flex-wrap h-20">
+          <div class="logo">
+            <span class="text-xl text-gray-900">Fashion House</span>
+          </div>
+
+          <ul class="list-items list-items__gender flex items-center gap-2">
+            <li class="list-item gap-2">
+              <a
+                href="/"
+                class="nav-link text-sm hover:font-medium hover:underline"
+                >Women</a
+              >
+            </li>
+            <li class="list-item">|</li>
+            <li class="list-item">
+              <a
+                href="/"
+                class="nav-link text-sm hover:font-medium hover:underline"
+                >Men</a
+              >
+            </li>
+          </ul>
+
+          <ul class="list-items flex items-center gap-2 flex-wrap">
+            <li class="list-item">
+              <a
+                href="/"
+                class="nav-link text-sm hover:font-medium hover:underline"
+                >KIDS</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                href="/"
+                class="nav-link text-sm hover:font-medium hover:underline"
+                >BEAUTY</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                href="/"
+                class="nav-link text-sm hover:font-medium hover:underline"
+                >STUDIO</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                href="/"
+                class="nav-link text-sm hover:font-medium hover:underline"
+                >HOME & LIVING</a
+              >
+            </li>
+          </ul>
+
+          <ul class="nav-buttons flex items-center gap-2">
+            <li>
+              <a href="/" class="nav-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M15.75 15.75L11.8525 11.8525M11.8525 11.8525C12.8704 10.8346 13.5 9.4283 13.5 7.875C13.5 4.7684 10.9816 2.25 7.875 2.25C4.7684 2.25 2.25 4.7684 2.25 7.875C2.25 10.9816 4.7684 13.5 7.875 13.5C9.4283 13.5 10.8346 12.8704 11.8525 11.8525Z"
+                    stroke="#0F172A"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <input
+                class="input-bar flex border-2 items-center mr-4"
+                type="text"
+                placeholder="Search for products"
+              />
+            </li>
+            <li>
+              <a href="/" class="nav-btn hover:font-medium hover:underline">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M11.8125 4.5C11.8125 6.0533 10.5533 7.3125 9 7.3125C7.4467 7.3125 6.1875 6.0533 6.1875 4.5C6.1875 2.9467 7.4467 1.6875 9 1.6875C10.5533 1.6875 11.8125 2.9467 11.8125 4.5Z"
+                    stroke="#0F172A"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3.37585 15.0887C3.42858 12.0277 5.92641 9.5625 9 9.5625C12.0737 9.5625 14.5715 12.0278 14.6242 15.0889C12.9121 15.8745 11.0073 16.3125 9.00024 16.3125C6.993 16.3125 5.08807 15.8744 3.37585 15.0887Z"
+                    stroke="#0F172A"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> </a
+              >Profile
+            </li>
+            <li>
+              <a href="/" class="nav-btn hover:font-medium hover:underline">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 64 64"
+                  stroke-width="7"
+                  width="18"
+                  height="18"
+                  stroke="#000"
+                  fill="none"
+                >
+                  <path
+                    d="M9.06,25C7.68,17.3,12.78,10.63,20.73,10c7-.55,10.47,7.93,11.17,9.55a.13.13,0,0,0,.25,0c3.25-8.91,9.17-9.29,11.25-9.5C49,9.45,56.51,13.78,55,23.87c-2.16,14-23.12,29.81-23.12,29.81S11.79,40.05,9.06,25Z"
+                  />
+                </svg>
+              </a>
+              <span class="">Wishlist</span>
+            </li>
+            <li>
+              <a href="/" class="nav-btn hover:font-medium hover:underline">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M11.8125 7.875V4.5C11.8125 2.9467 10.5533 1.6875 9 1.6875C7.4467 1.6875 6.1875 2.9467 6.1875 4.5V7.875M14.7045 6.38042L15.6519 15.3804C15.7043 15.8786 15.3137 16.3125 14.8128 16.3125H3.18722C2.68629 16.3125 2.29567 15.8786 2.34811 15.3804L3.29548 6.38042C3.34068 5.951 3.7028 5.625 4.13459 5.625H13.8654C14.2972 5.625 14.6593 5.951 14.7045 6.38042ZM6.46875 7.875C6.46875 8.03033 6.34283 8.15625 6.1875 8.15625C6.03217 8.15625 5.90625 8.03033 5.90625 7.875C5.90625 7.71967 6.03217 7.59375 6.1875 7.59375C6.34283 7.59375 6.46875 7.71967 6.46875 7.875ZM12.0937 7.875C12.0937 8.03033 11.9678 8.15625 11.8125 8.15625C11.6572 8.15625 11.5312 8.03033 11.5312 7.875C11.5312 7.71967 11.6572 7.59375 11.8125 7.59375C11.9678 7.59375 12.0937 7.71967 12.0937 7.875Z"
+                    stroke="#0F172A"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              Bag
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto">
+      <section class="bg-slate-100 flex justify-center">
+        <h1></h1>
+      </section>
+
+      <div class="banner-container">
+        <img src="images/image/banner.jpg" alt="banner-image" />
+      </div>
+      <div class="category-heading"></div>
+      <div class="category-items"></div>
+      <section>
+        <div
+          class="offer-header text-center font-extrabold bg-amber-500 w-100% h-20 py-5 my-2"
+        >
+          CATEGORIES TO CART
+        </div>
+        <div class="container-offer-items flex gap-4">
+          <a href="/">
+            <img src="images/image/Myntra Clone images/1.jpg" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/2.jpg" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/3.jpg" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/4.jpg" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/5.jpg" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/6.jpg" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/7.jpg" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/8.jpg" alt="sale-1" />
+          </a>
+        </div>
+      </section>
+      <section>
+        <div
+          class="offer-winter-header text-center font-extrabold bg-amber-500 w-100% h-20 py-5 my-2"
+        >
+          GET WINTER SALE
+        </div>
+        <div
+          class="container-winter inline-flex justify-center md:justify-evenly xl:justify-between flex-wrap gap-2 gap-4"
+        >
+          <a href="/">
+            <img src="images/image/Myntra Clone images/1.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/2.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/3.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/4.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/5.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/6.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/7.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/8.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/9.png" alt="sale-1" />
+          </a>
+          <a href="/">
+            <img src="images/image/Myntra Clone images/10.png" alt="sale-1" />
+          </a>
+
+          <a href="/">
+            <img src="images/image/Myntra Clone images/12.png" alt="sale-1" />
+          </a>
+        </div>
+      </section>
+      <section>
+        <div
+          class="container-new text-center font-extrabold bg-amber-500 w-100% h-20 py-5 my-3"
+        >
+          NEW ARRIVAL
+        </div>
+
+        <div class="container-new flex object-contain">
+          <a href="/">
+            <img
+              class="b-image size-[400px] object-cover object-top"
+              src="images/image/im-w-2.jpg"
+              alt="bottom-1"
+            />
+          </a>
+          <a href="/">
+            <img
+              class="b-image2 size-[400px] object-cover object-top"
+              src="images/image/im4.webp"
+              alt="bottom-2"
+            />
+          </a>
+          <a href="/">
+            <img
+              class="b-image3 size-[400px] object-cover object-top"
+              src="images/image/image 1.webp"
+              alt="bottom-3"
+            />
+          </a>
+          <a href="/">
+            <img
+              class="b-image3 size-[400px] object-cover object-top"
+              src="images/image/im-w-4.webp"
+              alt="bottom-4"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-white font-sans text-sm text-gray-500 my-5 pt-5 px-5">
+      
+      <div class="container mx-auto px-4">
+        <div class="footer-body flex justify-between items-start flex-wrap">
+          <span class="company-name font-bold text-xl">FASHION HOUSE</span>
+      
+       <div class="footer-links flex gap-12">
+
+            <ul class="footer-items text-sm leading-[1.68]">
+              <li class="footer-item__title mb-3.5 text-amber-900">ONLINE SHOPPING</li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Women</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Men</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">kids</a>
+
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Beauty</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Studio></a>
+              </li>
+             
+               <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Home & Living</a>
+              </li>
+               <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Gift Cards</a>
+              </li>
+            </ul>
+
+
+
+
+
+
+             <ul class="footer-items text-sm leading-[1.68]">
+              <li class="footer-item__title mb-3.5 text-amber-900">USEFUL LINKS</li>
+             
+               <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Blog</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Careers</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Site Map</a>
+              </li>
+               <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Corporate Information</a>
+              </li>
+             
+            </ul>
+
+            <ul class="footer-items text-sm leading-[1.68]">
+              <li class="footer-item__title mb-3.5 text-amber-900">
+                CUSTOMER POLICIES
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">contact Us</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">FQA</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Track Orders</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Shipping Cancellation</a>
+              </li>
+               <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Returns</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Unser Team</a>
+              </li>
+            </ul>
+
+
+            <ul class="footer-items text-sm leading-[1.68]">
+              <li class="footer-item__title mb-3.5 text-amber-900">
+                EXPERIENCE APP ON MOBILE
+              </li>
+              <li>
+                 <a href="/">
+            <img
+              class="google-app size-80 h-auto"
+              src="images/google.webp"
+              alt="google-app"
+            />
+          </a>
+              </li>
+              </ul>
+              <ul class="footer-items text-sm leading-[1.68]">
+              <li class="footer-item__title mb-3.5 text-amber-900">
+                KEEP IN TOUCH
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Facebook</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Twitter</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">What's Up</a>
+              </li>
+              <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]">Instagram</a>
+              </li>
+               <li class="footer-item">
+                <a href="/" class="text-[#cbcbcb]"> <img
+            class="social-logo w-20"
+            src="images/image/logo.jpg"
+            alt="Logo"
+          /></a>
+                </li>
+      
+   
+</div>
+   </div>
+     
+      <hr />
+      <div class="footer-end flex hover:font-medium ho ver:underline">
+        <span class="company-name font-bold text-xl py-4">POPULAR SEARCHES</span>
+      </div>
+      <div
+        class="container-end mb-3.5 text-[#b2b2b2] pb-4 hover:font-medium hover:underlinept-20"
+      >
+        <ul class="flex gap-4 flex-wrap leading-loose ">
+          <li>Punjabi Suits</li>
+          <li>|</li>
+          <li>Anarkali</li>
+          <li>|</li>
+          <li>Lingerire</li>
+          <li>|</li>
+          <li>Jacket For Women</li>
+          <li>Bra</li>
+          <li>|</li>
+          <li>Leggings</li>
+          <li>|</li>
+          <li>Kanjeevaram Saree</li>
+          <li>|</li>
+          <li>Dupattas</li>
+          <li>|</li>
+          <li>Anklet</li>
+          <li>|</li>
+          <li>Lehangas</li>
+          <li>|</li>
+          <li>Sharara</li>
+          <li>|</li>
+          <li>Lipstick</li>
+          <li>|</li>
+          <li>Makeup</li>
+          <li>|</li>
+          <li>Gowns</li>
+          <li>|</li>
+          <li>Anklet</li>
+          <li>|</li>
+          <li>Nail Polish</li>
+          <li>|</li>
+          <li>Salwar Kamiz</li>
+          <li>|</li>
+          <li>Tops</li>
+          <li>|</li>
+          <li>One Piece</li>
+          <li>|</li>
+          <li>Watch</li>
+          <li>|</li>
+          <li>Earrings</li>
+          <li>|</li>
+          <li>Nightdresses</li>
+        </ul>
+      </div>
+
+      <p class="text-sm mt-[100px] pb-2 text-end">
+        &copy; 2024 FASHION HOUSE - All rights rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
